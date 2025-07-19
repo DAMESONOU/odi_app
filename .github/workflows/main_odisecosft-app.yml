@@ -62,7 +62,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "odisecoft-app"
+          app-name: "odisecosft-app"
           slot-name: "Production"
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64ECD9A2DB2F4FF0B9DB1E5EA77760AC }}
