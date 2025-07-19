@@ -34,7 +34,7 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ username, onLogout }) => {
             Au revoir, {username} !
           </h1>
           <p className="text-gray-600 text-lg">
-            À bientôt sur notre plateforme !
+            À bientôt sur notre plateforme bbb !
           </p>
           <div className="mt-6">
             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-500 mx-auto"></div>
